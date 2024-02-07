@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./home-headline-article.component.scss']
 })
 export class HomeHeadlineArticleComponent {
+  isOpen: boolean = false;
 
+  close() {
+    this.isOpen = false;
+  }
 }
