@@ -9,7 +9,8 @@ import { HomeComponent } from './home/home.component';
 import { PageContentLayoutComponent } from './layouts/page-content-layout/page-layout.component';
 import { HomeHeadlineArticleComponent } from './components/home-headline-article/home-headline-article.component';
 import { MainContentComponent } from './layouts/main-content/main-content.component';
-import { SuperLaunchComponent } from './super-launch/super-launch.component';
+import { SuperLaunchComponent } from './components/super-launch/super-launch.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,7 @@ import { SuperLaunchComponent } from './super-launch/super-launch.component';
     MainContentComponent,
     SuperLaunchComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule, RouterModule],
   providers: [],
   bootstrap: [AppComponent],
 })
