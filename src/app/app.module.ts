@@ -9,6 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { PageContentLayoutComponent } from './layouts/page-content-layout/page-layout.component';
 import { HomeHeadlineArticleComponent } from './components/home-headline-article/home-headline-article.component';
 import { MainContentComponent } from './layouts/main-content/main-content.component';
+import { SuperLaunchComponent } from './super-launch/super-launch.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { MainContentComponent } from './layouts/main-content/main-content.compon
     PageContentLayoutComponent,
     HomeHeadlineArticleComponent,
     MainContentComponent,
+    SuperLaunchComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
